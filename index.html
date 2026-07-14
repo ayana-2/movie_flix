@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieFlix</title>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-
 <body class="bg-black text-white">
 
     <!-- ================= NAVBAR ================= -->
-
     <nav class="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md z-50">
         <div class="max-w-7xl mx-auto flex justify-between items-center px-8 py-5">
 
@@ -27,8 +24,6 @@
                 <li><a href="#" class="hover:text-red-500 duration-300">New Releases</a></li>
                 <li><a href="#" class="hover:text-red-500 duration-300">My List</a></li>
             </ul>
-
-            <!-- Profile -->
             <img
                 src="logo"
                 class="w-10 h-10 rounded-full border-2 border-red-600"
@@ -37,19 +32,13 @@
     </nav>
 
     <!-- ================= HERO SECTION ================= -->
-
-    <section
-        class="h-screen bg-cover bg-center flex items-center"
+    <section class="h-screen bg-cover bg-center flex items-center"
         style="background-image:url('baground.jpg');">
-
         <div class="absolute inset-0 bg-black/70"></div>
-
         <div class="relative max-w-7xl mx-auto px-8">
-
             <span class="bg-red-600 px-4 py-2 rounded-full">
                  Trending
             </span>
-
             <h1 class="text-6xl md:text-8xl font-bold mt-6">
                 THE DARK
                 <br>
@@ -61,67 +50,49 @@
                 and the world's greatest collection of blockbuster movies
                 all in one place.
             </p>
-
             <div class="mt-10 flex gap-5">
-
                 <button class="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-lg text-lg duration-300">
-                    ▶️ Play Now
+                        ▶️ Play Now
                 </button>
-
                 <button class="border border-white hover:bg-white hover:text-black px-8 py-4 rounded-lg text-lg duration-300">
-                    Watch Trailer
+                        Watch Trailer
                 </button>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- ================= TRENDING MOVIES ================= -->
 
-<section class="max-w-7xl mx-auto px-6 py-20">
+    <section class="max-w-7xl mx-auto px-6 py-20">
 
     <div class="flex justify-between items-center mb-10">
         <h2 class="text-4xl font-bold">🔥 Trending Now</h2>
-
         <button class="text-red-500 hover:text-red-400 duration-300">
             View All →
         </button>
     </div>
-
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
 
         <!-- Movie 1 -->
         <div class="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 duration-300 shadow-lg hover:shadow-red-600">
-
             <img src="exorcist.jpg"
                 class="h-72 w-full object-cover">
-
             <div class="p-4">
-
                 <h3 class="text-xl font-bold">
                     Exorcist
                 </h3>
-
                 <div class="flex justify-between mt-3">
-
                     <span class="bg-yellow-500 text-black px-2 rounded">
                         ⭐ 8.9
                     </span>
-
                     <span class="text-gray-400">
                         1973
                     </span>
-
                 </div>
-
                 <p class="text-gray-400 mt-3">
                     Action • Adventure
                 </p>
-
             </div>
-
         </div>
 
         <!-- Movie 2 -->
@@ -279,7 +250,6 @@
                 <p class="text-gray-400 mt-3">
                     Animation
                 </p>
-
             </div>
 
         </div>
@@ -287,6 +257,11 @@
     </div>
 
 </section>
+<footer class="bg-gray-900 text-white text-center py-8">
+            <h2 class="text-2xl font-bold">TECHNOVA</h2>
+            <p class="text-gray-400 mt-2">Building Smart Digital Solutions</p>
+            <p class="mt-4 text-gray-500">© 2026 TechNova. All Rights Reserved.</p>
+        </footer>
 
 </body>
 </html>
